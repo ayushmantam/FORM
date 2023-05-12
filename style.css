@@ -1,0 +1,71 @@
+body{
+    color: rgb(4, 4, 69);
+}
+h2{
+    float: left;
+    margin-left: 2px;
+    /* color: rgb(5, 5, 64); */
+}
+#container{
+    border: 2px solid blue;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 200px;
+}
+#bigbox{
+    /* border: 2px solid blue; */
+    display: flex;
+    /* text-align: center; */
+    padding: 20px;
+    background-color: rgb(215, 183, 223);
+    
+    justify-content: center;
+    height: 390px;
+    width: 390px;
+}
+#smallbox{
+    /* border: 2px solid blue; */
+    height: 370px;
+    width: 370px;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+}
+.form-group{
+    padding: 4px;
+    /* width: 400px; */
+    margin: auto;
+    justify-content: center;
+    
+}
+.form-group input{
+    /* text-align: center; */
+    font-size: larger;
+    padding: 5px;
+    margin: auto;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 220px;
+    height: 15px;
+}
+.btn{
+    border-radius: 20px;
+    padding: 5px;
+    width: 25%;
+    color: white;
+    background-color:rgb(34, 14, 185);
+}
+textarea {
+    color: rgb(4, 4, 69);
+    /* border: 10px; */
+    background-color: rgb(154, 139, 215);
+    border: 1px solid rgb(154, 139, 215);
+    border-radius: 5px;
+
+    
+
+}
+textarea :-ms-input-placeholder{
+    color: black;
+}
